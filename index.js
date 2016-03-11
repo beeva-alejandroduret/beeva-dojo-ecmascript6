@@ -14,8 +14,7 @@ console.log(object.arr); // el array pasado
 console.log(object.list()); // el array en la clase
 console.log(object.getItem(5));
 object = object.getItem(5);
-console.log("El objeto con índice "+object.index+" vale "+object.value);
-//console.log("El objeto con índice ${object.index} vale ${object.value}");
+console.log(`El objeto con índice ${object.index} vale ${object.value}`);
 
 
 let Weather = Utils.Weather(); // llamamos a función estática de Utils que nos devuelve la clase Weather
